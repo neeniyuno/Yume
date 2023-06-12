@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+ <title>About - YUME</title>
+ <link rel="icon" href="icon.png">
+ <link href="About.css" type="text/css" rel="stylesheet">
+ <div class="icon">
+ 	<img src="icon.png" alt="yumeicon">
+ </div>
+<div class="head">
+<ul>
+ <li><a href="home.html">Home</a>
+ <li><a href="shop.html">Shop</a>
+ <li><a href="contact.html">Contact</a>
+ <li><a href="donate.html">Donate</a>
+ <li><a class="active" href="about.html">About</a>
+</ul>
+</div>
+</head>
+<body>
+<div class="center_about">
+<h1> YUME - Where Anyone Can Draw</h1>
+<p> Our website's goal is to showcase our talents as artists through commissions while also raising funds for stray animals and animal organizations or charities without having to scroll through our social media and wait for the need to help.</p>
+<p>The site's name comes from the Japanese word "夢" (read as yuu-meh), which means dream.</p>
+<p>Dream up of anything you can imagine, take any art medium to prefer, draw to your heart's content.</p>
+<p>Together we can save these precious animals.</p>
+</div>
+<img src="yummer2.png">
+
+<div class="center_about2">
+<p> Our site's mascot is named Yummers.</p>
+<p> A magical purple koala that paints with their tail, they're an artistic prodigy in the making. </p>
+</div>
