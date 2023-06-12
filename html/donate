@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+ <title>Contact - YUME</title>
+ <link rel="icon" href="icon.png">
+ <div class="icon">
+ <link href="contact.css" type="text/css" rel="stylesheet">
+ <img src="icon.png" alt="yumeicon"/>
+ </div>
+<div class="head">
+<ul>
+ <li><a href="home.html">Home</a>
+ <li><a href="shop.html">Shop</a>
+ <li><a href="contact.html">Contact</a>
+ <li><a class="active" href="donate.html">Donate</a>
+ <li><a href="about.html">About</a>
+</ul>
+</div>
+</head>
+<body>
+	<div class="center"> 
+		<center>
+		<h1> Fundraising for Strays and Animal Organizations </h1>
+		<h2> Art for A Cause </h2>
+</body>
+</html>
