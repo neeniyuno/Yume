@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+<title>Home - YUME </title>
+<link rel="icon" href="icon.png">
+<link href="home.css" type="text/css" rel="stylesheet">
+<img src="icon.png" alt="yumeicon"/>
+<div class="header">
+</div>	
+<div class="head">
+<ul>
+ <li><a class="active" href="home.html">Home</a>
+ <li><a href="shop.html">Shop</a>
+ <li><a href="contact.html">Contact</a>
+  <li><a href="donate.html">Donate</a>
+ <li><a href="about.html">About</a>
+ 
+</ul>
+</div>
+</head>
+<body> <center>
+<em> <b> Search: </b> </em> 
+<input id="mysearch" type="search" name="searchitem"/>
+<h2> <q> Hello, yummers! </q> </h2> 
+</center>
+<div class="center">
+	<center> <h2> P R O F I L E S </h2> </center>
+<div class= "postbox1">
+	<a href="maine.html"> <img src="maine.jpg" class="profilebox1"> </a>
+	<a href="maine.html" class="name"> Admin Mai </a>
+</div>
+<br> <br> <br> <br> <br> <br>
+
+<div class= "postbox2">
+	<a href="jen.html"> <img src="jen.jpg" class="profilebox2"> </a>
+	<a href="jen.html" class="name"> Admin Jineru </a>
+</div>
+<br> <br> <br> <br> <br> <br>
+
+<div class= "postbox3">
+	<a href="maria.html"> <img src="maria.jpg" class="profilebox3"> </a>
+	<a href="maria.html" class="name"> Admin Haraya </a>
+</div>
+<br> <br> <br> <br> <br> <br>
+
+</div>
+</div>
+
+</body>
+</html>
