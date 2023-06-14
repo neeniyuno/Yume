@@ -2,26 +2,196 @@
 <html>
 <head>
 <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
- <title>Contact - YUME</title>
+ <title>About - YUME</title>
  <link rel="icon" href="icon.png">
+ <link href="donate.css" type="text/css" rel="stylesheet">
  <div class="icon">
- <link href="contact.css" type="text/css" rel="stylesheet">
- <img src="icon.png" alt="yumeicon"/>
- </div>
-<div class="head">
-<ul>
- <li><a href="home.html">Home</a>
- <li><a href="shop.html">Shop</a>
- <li><a href="contact.html">Contact</a>
- <li><a class="active" href="donate.html">Donate</a>
- <li><a href="about.html">About</a>
-</ul>
-</div>
-</head>
+ 	<img src="icon.png" alt="yumeicon">
+<head></head>
+
 <body>
-	<div class="center"> 
-		<center>
-		<h1> Fundraising for Strays and Animal Organizations </h1>
-		<h2> Art for A Cause </h2>
+ <header class="header">
+        <div class="header-top">
+            <div class="container d-flex">
+                <div class="py-1 d-flex align-items-center ms-auto">
+                    <h6 class="mb-0 text-white">Follow Us:</h6>
+                    <nav class="d-flex align-items-center">
+                        <a class="ms-2 text-white" href="https://facebook.com" target="_blank">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a class="ms-2 text-white" href="https://instagram.com" target="_blank">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a class="ms-2 text-white" href="https://twitter.com" target="_blank">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <nav class="header-navbar navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <figure class="header-logo">
+                        <img class="img-fluid" src="logo.png" width="280" height="240" />
+                    </figure>
+                </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item ms-3 ">
+                            <a href="home.html">Home</a>
+			<li class="nav-item ms-3 ">
+                            <a href="shop.html">Shop</a>
+                        <li class="nav-item ms-3">
+                            <a href="donate.html">Donate</a>
+                        </li>
+                        <li class="nav-item ms-3">
+                            <a href="about.html">About</a>
+                        </li>
+                        <li class="nav-item ms-3">
+                            <a class="active" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+	<--Donate-->
+
+	<div class="video_container">
+		<div class="row tm-catalog-item-list">
+                        <div class="col-lg-4 col-md-6 col-sm-12 tm-catalog-item">
+                            <div class="position-relative tm-thumbnail-container">
+                                <img src="img/tn-01.jpg" alt="Image" class="img-fluid tm-catalog-item-img">    
+                                    <i class="fas fa-play tm-overlay-icon"></i>
+                                </a>
+                            </div>    
+                            <div class="p-4 tm-bg-gray tm-catalog-item-description">
+                                <h3 class="tm-text-primary mb-3 tm-catalog-item-title">Aenean aliquet sapien</h3>
+                                <p class="tm-catalog-item-text">Video thumbnail has a link to another HTML page. 
+                                    Categories <span class="tm-text-secondary">do not need</span> any JS. 
+                                    They are just separated HTML pages. Paging is at the bottom to extend the list as long as you want. 
+                                    This can be a large catalog.</p>
+                            </div>
+			</div>
+
+
+                        <div class="col-lg-4 col-md-6 col-sm-12 tm-catalog-item">
+                            <div class="position-relative tm-thumbnail-container">
+                                <img src="img/tn-02.jpg" alt="Image" class="img-fluid tm-catalog-item-img">    
+                                    <i class="fas fa-play tm-overlay-icon"></i>
+                                </a>
+                            </div>
+                            <div class="p-4 tm-bg-gray tm-catalog-item-description">
+                                <h3 class="tm-text-primary mb-3 tm-catalog-item-title">Mauris in odio vel odio</h3>
+                                <p class="tm-catalog-item-text">You may need TemplateMo for a quick chat or send an email if you have any question about this CSS template. 
+                                    <span class="tm-text-secondary">font-family: 'Source Sans Pro', sans-serif; for this template.</span></p>
+                            </div>
+                        </div>
+
+
+                        <div class="col-lg-4 col-md-6 col-sm-12 tm-catalog-item">
+                            <div class="position-relative tm-thumbnail-container">
+                                <img src="img/tn-03.jpg" alt="Image" class="img-fluid tm-catalog-item-img">    
+                                    <i class="fas fa-play tm-overlay-icon"></i>
+                                </a>
+                            </div>                            
+                            <div class="p-4 tm-bg-gray tm-catalog-item-description">
+                                <h3 class="tm-text-primary mb-3 tm-catalog-item-title">Sagittis sodales enim</h3>
+                                <p class="tm-catalog-item-text">You are allowed to use this video catalog for your business websites. 
+                                Please do not make a re-distribution of our template ZIP file on any template collection website.</p>
+                            </div>
+                        </div>
+
+
+                        <div class="col-lg-4 col-md-6 col-sm-12 tm-catalog-item">
+                            <div class="position-relative tm-thumbnail-container">
+                                <img src="img/tn-04.jpg" alt="Image" class="img-fluid tm-catalog-item-img">    
+                                   <i class="fas fa-play tm-overlay-icon"></i>
+                                </a>
+                            </div>    
+                            <div class="p-4 tm-bg-gray tm-catalog-item-description">
+                                <h3 class="tm-text-primary mb-3 tm-catalog-item-title">Nam tincidunt consectetur</h3>
+                                <p class="tm-catalog-item-text">You can apply this template for your commercial CMS theme. Nam sem leo, imperdiet non lacinia eget, volutpat ac massa. Donec mattis in velit quis commodo. Cras nec rutrum arcu.</p>
+                            </div>
+                        </div>
+
+
+                        <div class="col-lg-4 col-md-6 col-sm-12 tm-catalog-item">
+                            <div class="position-relative tm-thumbnail-container">
+                                <img src="img/tn-05.jpg" alt="Image" class="img-fluid tm-catalog-item-img">   
+                                    <i class="fas fa-play tm-overlay-icon"></i>
+                                </a>
+                            </div>
+                            <div class="p-4 tm-bg-gray tm-catalog-item-description">
+                                <h3 class="tm-text-primary mb-3 tm-catalog-item-title">Praesent posuere rhoncus</h3>
+                                <p class="tm-catalog-item-text">Duis vulputate nisl metus, eget dapibus nunc ultricies id. Ut augue mauris, varius quis nulla non, sollicitudin consectetur nisl. Donec eget arcu placerat, ullamcorper.</p>
+                            </div>
+                        </div>
+
+
+                        <div class="col-lg-4 col-md-6 col-sm-12 tm-catalog-item">
+                            <div class="position-relative tm-thumbnail-container">
+                                <img src="img/tn-06.jpg" alt="Image" class="img-fluid tm-catalog-item-img">    
+                                    <i class="fas fa-play tm-overlay-icon"></i>
+                                </a>
+                            </div>                            
+                            <div class="p-4 tm-bg-gray tm-catalog-item-description">
+                                <h3 class="tm-text-primary mb-3 tm-catalog-item-title">Turpis massa aliquam</h3>
+                                <p class="tm-catalog-item-text">Nunc neque risus, ultrices sed luctus at, iaculis at arcu. Pellentesque rutrum velit nec sapien ullamcorper ultrices. Vestibulum lectus risus, laoreet pretium ipsum</p>
+                            </div>
+                        </div>
+
+
+                        <div class="col-lg-4 col-md-6 col-sm-12 tm-catalog-item">
+                            <div class="position-relative tm-thumbnail-container">
+                                <img src="img/tn-07.jpg" alt="Image" class="img-fluid tm-catalog-item-img">                                 
+                                    <i class="fas fa-play tm-overlay-icon"></i>
+                                </a>
+                            </div>    
+                            <div class="p-4 tm-bg-gray tm-catalog-item-description">
+                                <h3 class="tm-text-primary mb-3 tm-catalog-item-title">Class aptent taciti sociosqu</h3>
+                                <p class="tm-catalog-item-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus bibendum orci sit amet dignissim rhoncus. Pellentesque pretium faucibus vestibulum.</p>
+                            </div>
+                        </div>
+
+
+                        <div class="col-lg-4 col-md-6 col-sm-12 tm-catalog-item">
+                            <div class="position-relative tm-thumbnail-container">
+                                <img src="img/tn-08.jpg" alt="Image" class="img-fluid tm-catalog-item-img">                                 
+                                    <i class="fas fa-play tm-overlay-icon"></i>
+                                </a>
+                            </div>
+                            <div class="p-4 tm-bg-gray tm-catalog-item-description">
+                                <h3 class="tm-text-primary mb-3 tm-catalog-item-title">Donec ac nisl ul elit</h3>
+                                <p class="tm-catalog-item-text">Suspendisse in odio congue, lobortis metus sed, venenatis nisl. In dapibus et massa feugiat facilisis. Maecenas venenatis aliquet nulla, a tincidunt erat suscipit eget.</p>
+                            </div>
+                        </div>
+
+
+                        <div class="col-lg-4 col-md-6 col-sm-12 tm-catalog-item">
+                            <div class="position-relative tm-thumbnail-container">
+                                <img src="img/tn-09.jpg" alt="Image" class="img-fluid tm-catalog-item-img">                               
+                                    <i class="fas fa-play tm-overlay-icon"></i>
+                                </a>
+                            </div>                            
+                            <div class="p-4 tm-bg-gray tm-catalog-item-description">
+                                <h3 class="tm-text-primary mb-3 tm-catalog-item-title">Sed mattis nisi erat</h3>
+                                <p class="tm-catalog-item-text">Integer ultricies mi eu aliquet cursus. Nam sem leo, imperdiet non lacinia eget, volutpat ac massa. Donec mattis in velit quis commodo. Cras nec rutrum arcu.</p>
+                            </div>
+                        </div>
+                    </div>
+
+</div>
+
+
 </body>
 </html>
