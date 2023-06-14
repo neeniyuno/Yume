@@ -1,6 +1,6 @@
 /* Header */
 .header-top {
-    background-color: #733d80;
+	background-color: #c066d5;
 }
 
 .header-logo {
@@ -9,15 +9,24 @@
 
 /* Navbar */
 .navbar {
-    background-color: #c066d5;
+    background-color: purple;
 }
 
 .navbar-nav {
     font-size: 20px;
 }
 
-.nav-link {
-    color: #fff;
+.navbar-nav a:hover {
+	background-color: #c066d5;
+}
+
+.navbar-nav .nav-link .active {
+	background-color: #7E0990;
+	color: white;
+}
+
+body {
+	background-color: #e5cbf4;
 }
 
 /* Component - Hero */
