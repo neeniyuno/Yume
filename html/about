@@ -7,18 +7,62 @@
  <link href="About.css" type="text/css" rel="stylesheet">
  <div class="icon">
  	<img src="icon.png" alt="yumeicon">
- </div>
-<div class="head">
-<ul>
- <li><a href="home.html">Home</a>
- <li><a href="shop.html">Shop</a>
- <li><a href="contact.html">Contact</a>
- <li><a href="donate.html">Donate</a>
- <li><a class="active" href="about.html">About</a>
-</ul>
-</div>
 </head>
 <body>
+ <header class="header">
+        <div class="header-top">
+            <div class="container d-flex">
+                <div class="py-1 d-flex align-items-center ms-auto">
+                    <h6 class="mb-0 text-white">Follow Us:</h6>
+                    <nav class="d-flex align-items-center">
+                        <a class="ms-2 text-white" href="https://facebook.com" target="_blank">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a class="ms-2 text-white" href="https://instagram.com" target="_blank">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a class="ms-2 text-white" href="https://twitter.com" target="_blank">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <nav class="header-navbar navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <figure class="header-logo">
+                        <img class="img-fluid" src="logo.png" width="280" height="240" />
+                    </figure>
+                </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item ms-3 ">
+                            <a  href="home.html">Home</a>
+			<li class="nav-item ms-3 ">
+                            <a class="active" href="shop.html">Shop</a>
+                        <li class="nav-item ms-3">
+                            <a href="donate.html">Donate</a>
+                        </li>
+                        <li class="nav-item ms-3">
+                            <a href="about.html">About</a>
+                        </li>
+                        <li class="nav-item ms-3">
+                            <a href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
 <div class="center_about">
 <h1> YUME - Where Anyone Can Draw</h1>
 <p> Our website's goal is to showcase our talents as artists through commissions while also raising funds for stray animals and animal organizations or charities without having to scroll through our social media and wait for the need to help.</p>
@@ -32,3 +76,6 @@
 <p> Our site's mascot is named Yummers.</p>
 <p> A magical purple koala that paints with their tail, they're an artistic prodigy in the making. </p>
 </div>
+
+</body>
+</html>
