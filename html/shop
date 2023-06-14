@@ -9,15 +9,6 @@
 <div class="header">
 </div>	
 <div class="head">
-<ul>
- <li><a href="home.html">Home</a>
- <li><a class="active" href="shop.html">Shop</a>
- <li><a href="contact.html">Contact</a>
- <li><a href="donate.html">Donate</a>
- <li><a href="about.html">About</a>
- 
-</ul>
-</div>
 
 </head>
 <br>
@@ -35,105 +26,61 @@
 	<link rel="stylesheet" href="shop.css">
 </head>
 <body>
-	<div class="row justify-content-md-center">
-		<div class="col-md-8">
-			<div id="hero-carousel" class="carousel slide" data-bs-ride="carousel">
-				<div class="carousel-indicators">
-				  <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-				  <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-				  <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
-				</div>
+ <header class="header">
+        <div class="header-top">
+            <div class="container d-flex">
+                <div class="py-1 d-flex align-items-center ms-auto">
+                    <h6 class="mb-0 text-white">Follow Us:</h6>
+                    <nav class="d-flex align-items-center">
+                        <a class="ms-2 text-white" href="https://facebook.com" target="_blank">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a class="ms-2 text-white" href="https://instagram.com" target="_blank">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a class="ms-2 text-white" href="https://twitter.com" target="_blank">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <nav class="header-navbar navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <figure class="header-logo">
+                        <img class="img-fluid" src="logo.png" width="280" height="240" />
+                    </figure>
+                </a>
 
-				<div class="carousel-inner">
-				  <div class="carousel-item active c-item">
-					<img src="s1.jpg" class="d-block w-100 c-img"  alt="Slide 1">
-				  </div>
-				  
-				  <div class="carousel-item c-item">
-					<img src="s2.jpg" class="d-block w-100 c-img" alt="Slide 2">
-				  </div>
-				  
-				  <div class="carousel-item c-item">
-					<img src="s3.jpg" class="d-block w-100 c-img" alt="Slide 3">
-				  </div>
-				  
-				</div>
-			
-				<button class="carousel-control-prev" type="button" data-bs-target="#hero-carousel" data-bs-slide="prev">
-				  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-				  <span class="visually-hidden">Previous</span>
-				</button>
-				
-				<button class="carousel-control-next" type="button" data-bs-target="#hero-carousel" data-bs-slide="next">
-				  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-				  <span class="visually-hidden">Next</span>
-				</button>
-			</div>
-		</div>
-	</div>
-	<br>
-	<br>
-	<br>
-	<br>
-	<div class="container">
-		<h1> Merchandises </h1>
-		
-		<div class="row justify-content-between">
-		
-			<div class="col-lg-3 col-sm-3">
-				<div class="thumbnail">
-					<div class="img-container">
-						
-						<a target="_blank" href="paint-palette.png">
-						<img src="paint-palette.png" class="icon">
-						<div class="overlay">
-							<p class="caption">Art</p>
-						</div>
-						</a>
-						
-						
-					</div>
-				</div>
-			</div>
-			
-			<div class="col-lg-3 col-sm-3">
-				<div class="thumbnail">
-					<div class="img-container">
-						
-						<a target="_blank" href="paint-palette.png">
-						<img src="ink-bottle.png" class="icon">
-						<div class="overlay">
-							<p class="caption">Poems</p>
-						</div>
-						</a>
-						
-					</div>
-				</div>
-			</div>
-			
-			<div class="col-lg-3 col-sm-3">
-				<div class="thumbnail">
-					<div class="img-container">
-						<a target="_blank" href="knitting.png">
-						<img src="knitting.png" class="icon">
-						<div class="overlay">
-							<p class="caption">Crochet</p>
-						</div>
-						</a>
-					</div>
-				</div>
-			</div>
-			
-		</div>
-	</div>
-	
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-   
-  
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item ms-3 ">
+                            <a href="home.html">Home</a>
+			<li class="nav-item ms-3 ">
+                            <a href="shop.html">Shop</a>
+                        <li class="nav-item ms-3">
+                            <a href="donate.html">Donate</a>
+                        </li>
+                        <li class="nav-item ms-3">
+                            <a class="active" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item ms-3">
+                            <a href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+<body>
+
 </body>
 </html> 
