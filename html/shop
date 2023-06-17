@@ -56,7 +56,7 @@
                                aria-expanded="false">
                                 Shop
                             </a>
-                            <ul class="dropdown-menu">
+                             <ul class="dropdown-menu">
                                 <li><a class="dropdown-item" href="shop.html#portraits">Portraits</a></li>
                                 <li><a class="dropdown-item" href="shop.html#crochets">Crochets</a></li>
                                 <li><a class="dropdown-item" href="shop.html#poems">Written Poems</a></li>
