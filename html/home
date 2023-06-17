@@ -15,7 +15,7 @@
 </head>
 
 <body>
-    <header class="header">
+    <header class="header fixed-top">
         <div class="header-top">
             <div class="container d-flex">
                 <div class="py-1 d-flex align-items-center ms-auto">
@@ -41,24 +41,32 @@
                         <img class="img-fluid" src="logo.png" width="280" height="240" />
                     </figure>
                 </a>
-
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                        <li class="nav-item ms-3 ">
-                            <a class="active" href="home.html">Home</a>
-			<li class="nav-item ms-3 ">
-                            <a href="shop.html">Shop</a>
                         <li class="nav-item ms-3">
-                            <a href="donate.html">Donate</a>
+                            <a class="nav-link active" href="home.html">Home</a>
+                        </li>
+                        <li class="nav-item ms-3 dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                               aria-expanded="false">
+                                Shop
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="shop.html#crochet">Portraits</a></li>
+                                <li><a class="dropdown-item" href="shop.html#poem">Crochets</a></li>
+                                <li><a class="dropdown-item" href="shop.html#arts">Written Poems</a></li>
+                            </ul>
                         </li>
                         <li class="nav-item ms-3">
-                            <a href="about.html">About</a>
+                            <a class="nav-link" href="donate.html">Donate</a>
+                        </li>
+                        <li class="nav-item ms-3">
+                            <a class="nav-link" href="about.html">About</a>
                         </li>
                         <li class="nav-item ms-3">
                             <a class="nav-link" href="contact.html">Contact</a>
@@ -69,11 +77,11 @@
         </nav>
     </header>
 
-    <!-- Hero -->
+<!-- Hero -->
     <section id="hero" class="hero js-hero-slider">
         <article class="hero-item py-5">
             <div class="container">
-                <img class="hero-item__bg" src="img/hero-1.jpg" alt="Hero 1" />
+                <img class="hero-item__bg" alt="" />
                 <div class="container-xxl">
                     <div class="hero-item-content row align-items-center">
                         <div class="p-1 text-white col-xl-6">
@@ -90,7 +98,7 @@
                             </a>
                         </div>
                         <div class="hero-item-content__image col-xl-6">
-                            <img class="img-fluid" src="img/hero-product-1.jpg" alt="Hero Product 1" />
+                            <img class="img-fluid" src="img/Arts/dog.png" alt="Hero Product 1" />
                         </div>
                     </div>
                 </div>
@@ -98,7 +106,7 @@
         </article>
         <article class="hero-item py-5">
             <div class="container">
-                <img class="hero-item__bg" src="img/hero-2.jpg" alt="Hero 2" />
+                <img class="hero-item__bg" alt="" />
                 <div class="container-xxl">
                     <div class="hero-item-content row align-items-center">
                         <div class="p-1 text-white col-xl-6">
@@ -111,7 +119,7 @@
                             </a>
                         </div>
                         <div class="hero-item-content__image col-xl-6">
-                            <img class="img-fluid" src="img/hero-product-2.jpg" alt="Hero Product 2" />
+                            <img class="img-fluid" src="img/crochet/boqtulips.png" alt="Hero Product 2" />
                         </div>
                     </div>
                 </div>
@@ -119,7 +127,7 @@
         </article>
         <article class="hero-item py-5">
             <div class="container">
-                <img class="hero-item__bg" src="img/hero-3.jpg" alt="Hero 3" />
+                <img class="hero-item__bg" alt="" />
                 <div class="container-xxl">
                     <div class="hero-item-content row align-items-center">
                         <div class="p-1 text-white col-xl-6">
@@ -132,7 +140,7 @@
                             </a>
                         </div>
                         <div class="hero-item-content__image col-xl-6">
-                            <img class="img-fluid" src="img/hero-product-3.jpg" alt="Hero Product 3" />
+                            <img class="img-fluid" src="img/books/clover.png" alt="Hero Product 3" />
                         </div>
                     </div>
                 </div>
@@ -140,12 +148,12 @@
         </article>
     </section>
 
-    <!-- Who we are -->
+<!-- Who we are -->
     <section id="who-we-are" class="p-3 p-5-xl">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-xl-6">
-                    <img class="img-fluid" src="img/hero-product-3.jpg" alt="Hero Product 3" />
+                    <img class="img-fluid" src="img/about.png" alt="team" />
                 </div>
                 <div class="col-xl-6">
                     <div class="pt-3 pt-0-xl ps-5-xl">
@@ -156,7 +164,7 @@
                             Etiam commodo odio sem, et feugiat justo viverra id. Maecenas ut tincidunt mi, sit amet
                             imperdiet ante. Donec at mauris sit amet urna scelerisque laoreet in tristique erat. Sed sed
                             sapien tortor.</p>
-                        <a class="btn btn-lg btn-primary" href="#">
+                        <a class="btn btn-lg btn-primary" href="about.html">
                             Meet our team
                         </a>
                     </div>
@@ -165,7 +173,7 @@
         </div>
     </section>
 
-    <!-- Featured Categories -->
+<!-- Featured Categories -->
     <section id="featured-categories" class="p-5">
         <div class="container">
             <h2 class="mb-5 text-center">Featured Categories</h2>
@@ -175,18 +183,20 @@
                         <div class="card h-100">
                             <div class="row h-100 g-0">
                                 <div class="col-md-4">
-                                    <img src="img/hero-product-1.jpg"
-                                        class="h-100 img-fluid rounded-start object-fit-cover" alt="...">
+                                    <img src="img/Arts/portrait without bkg.png"
+                                         class="h-100 img-fluid rounded-start object-fit-cover" alt="...">
                                 </div>
                                 <div class="col-md-8">
                                     <div class="card-body">
                                         <h5 class="card-title">Portraits</h5>
-                                        <p class="card-text">Nam sed auctor nibh. Curabitur posuere est sapien, ut
+                                        <p class="card-text">
+                                            Nam sed auctor nibh. Curabitur posuere est sapien, ut
                                             iaculis eros semper et. Vivamus malesuada tristique est at vestibulum.
                                             Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere
-                                            cubilia curae.</p>
+                                            cubilia curae.
+                                        </p>
                                         <p class="card-text">
-                                            <a href="#">View Products</a>
+                                            <a href="shop.html">View Products</a>
                                         </p>
                                     </div>
                                 </div>
@@ -199,7 +209,7 @@
                         <div class="card h-100">
                             <div class="row h-100 g-0">
                                 <div class="col-md-4">
-                                    <img src="img/hero-product-1.jpg"
+                                    <img src="img/crochet/tulsy.png"
                                         class="h-100 img-fluid rounded-start object-fit-cover" alt="...">
                                 </div>
                                 <div class="col-md-8">
@@ -209,7 +219,7 @@
                                             lorem lobortis. Curabitur diam sapien, scelerisque pharetra erat et, ornare
                                             viverra neque.</p>
                                         <p class="card-text">
-                                            <a href="#">View Products</a>
+                                            <a href="shop.html">View Products</a>
                                         </p>
                                     </div>
                                 </div>
@@ -222,7 +232,7 @@
                         <div class="card h-100">
                             <div class="row h-100 g-0">
                                 <div class="col-md-4">
-                                    <img src="img/hero-product-1.jpg"
+                                    <img src="img/books/clover (2).png"
                                         class="h-100 img-fluid rounded-start object-fit-cover" alt="...">
                                 </div>
                                 <div class="col-md-8">
@@ -232,7 +242,7 @@
                                             vel mi eget arcu posuere aliquet. Ut pulvinar massa congue, interdum tellus
                                             vitae, imperdiet sem.</p>
                                         <p class="card-text">
-                                            <a href="#">View Products</a>
+                                            <a href="shop.html">View Products</a>
                                         </p>
                                     </div>
                                 </div>
@@ -243,21 +253,22 @@
             </div>
         </div>
     </section>
-
+<!--WHY?-->
     <section id="why-shop-with-us" class="p-5 text-center">
         <div class="container">
             <h2 class="pb-5">
                 Why shop with us?
             </h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus nibh in velit facilisis maximus.
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus nibh in velit facilisis maximus.
                 Aliquam venenatis eu lacus et gravida. Etiam sollicitudin efficitur varius. Nam sit amet enim leo.
                 Maecenas ullamcorper placerat magna, sit amet pulvinar ipsum aliquet non. Etiam commodo odio sem, et
                 feugiat justo viverra id. Maecenas ut tincidunt mi, sit amet imperdiet ante. Donec at mauris sit amet
-                urna scelerisque laoreet in tristique erat. Sed sed sapien tortor.</p>
-            <a class="btn btn-lg btn-primary" href="#">
-                Shop Now
-                <i class="fas fa-shopping-cart"></i>
-            </a>
+                urna scelerisque laoreet in tristique erat. Sed sed sapien tortor.
+            </p>
+        <div class="col-xl-6 text-end">
+            <a class="btn btn-lg btn-primary" href="about.html">Read more</a>
+        </div>
         </div>
     </section>
 
@@ -268,14 +279,14 @@
                     <h2 class="pb-5">Our Products</h2>
                 </div>
                 <div class="col-xl-6 text-end">
-                    <a class="btn btn-lg btn-primary" href="#">View More Products</a>
+                    <a class="btn btn-lg btn-primary" href="shop.html">View More Products</a>
                 </div>
             </div>
-
+                <br />
             <div class="js-products-slider">
                 <div class="px-3">
                     <div class="card">
-                        <img class="card-img-top" src="img/hero-product-1.jpg" alt="Product 1">
+                        <img class="card-img-top" src="img/Arts/bpin (1).png" alt="Product 1">
                         <div class="card-body">
                             <h5 class="card-title">Product 1</h5>
                             <p class="card-text">Nam sed auctor nibh. Curabitur posuere est sapien, ut iaculis eros semper et. Vivamus malesuada tristique est at vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae</p>
@@ -285,7 +296,7 @@
                 </div>
                 <div class="px-3">
                     <div class="card">
-                        <img class="card-img-top" src="img/hero-product-2.jpg" alt="Product 2">
+                        <img class="card-img-top" src="img/Arts/catshirt.png" alt="Product 2">
                         <div class="card-body">
                             <h5 class="card-title">Product 1</h5>
                             <p class="card-text">Nam sed auctor nibh. Curabitur posuere est sapien, ut iaculis eros semper et. Vivamus malesuada tristique est at vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae</p>
@@ -295,7 +306,7 @@
                 </div>
                 <div class="px-3">
                     <div class="card">
-                        <img class="card-img-top" src="img/hero-product-3.jpg" alt="Product 3">
+                        <img class="card-img-top" src="img/Arts/portrait w bkg.png" alt="Product 3">
                         <div class="card-body">
                             <h5 class="card-title">Product 1</h5>
                             <p class="card-text">Nam sed auctor nibh. Curabitur posuere est sapien, ut iaculis eros semper et. Vivamus malesuada tristique est at vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae</p>
@@ -305,7 +316,7 @@
                 </div>
                 <div class="px-3">
                     <div class="card">
-                        <img class="card-img-top" src="img/hero-product-3.jpg" alt="Product 3">
+                        <img class="card-img-top" src="img/crochet/pet.png" alt="Product 3">
                         <div class="card-body">
                             <h5 class="card-title">Product 1</h5>
                             <p class="card-text">Nam sed auctor nibh. Curabitur posuere est sapien, ut iaculis eros semper et. Vivamus malesuada tristique est at vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae</p>
@@ -315,7 +326,7 @@
                 </div>
                 <div class="px-3">
                     <div class="card">
-                        <img class="card-img-top" src="img/hero-product-3.jpg" alt="Product 3">
+                        <img class="card-img-top" src="img/crochet/rtulips.png" alt="Product 3">
                         <div class="card-body">
                             <h5 class="card-title">Product 1</h5>
                             <p class="card-text">Nam sed auctor nibh. Curabitur posuere est sapien, ut iaculis eros semper et. Vivamus malesuada tristique est at vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae</p>
@@ -325,7 +336,7 @@
                 </div>
                 <div class="px-3">
                     <div class="card">
-                        <img class="card-img-top" src="img/hero-product-3.jpg" alt="Product 3">
+                        <img class="card-img-top" src="img/books/guiltyp.png" alt="Product 3">
                         <div class="card-body">
                             <h5 class="card-title">Product 1</h5>
                             <p class="card-text">Nam sed auctor nibh. Curabitur posuere est sapien, ut iaculis eros semper et. Vivamus malesuada tristique est at vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae</p>
