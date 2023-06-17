@@ -57,9 +57,9 @@
                                 Shop
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="shop.html#crochet">Portraits</a></li>
-                                <li><a class="dropdown-item" href="shop.html#poem">Crochets</a></li>
-                                <li><a class="dropdown-item" href="shop.html#arts">Written Poems</a></li>
+                                <li><a class="dropdown-item" href="shop.html#portraits">Portraits</a></li>
+                                <li><a class="dropdown-item" href="shop.html#crochets">Crochets</a></li>
+                                <li><a class="dropdown-item" href="shop.html#poems">Written Poems</a></li>
                             </ul>
                         </li>
                         <li class="nav-item ms-3">
