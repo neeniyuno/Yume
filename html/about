@@ -1,15 +1,21 @@
 <!DOCTYPE html>
-<html>
-<head>
-<link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
- <title>About - YUME</title>
- <link rel="icon" href="icon.png">
- <link href="About.css" type="text/css" rel="stylesheet">
- <div class="icon">
- 	<img src="icon.png" alt="yumeicon">
+<html lang="en" <head>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+<link rel="stylesheet" href="css/main.css" type="text/css" />
+<title>YUME - About Us</title>
+<link rel="icon" href="icon.png" />
 </head>
+
 <body>
- <header class="header">
+<header class="header fixed-top">
         <div class="header-top">
             <div class="container d-flex">
                 <div class="py-1 d-flex align-items-center ms-auto">
@@ -35,47 +41,62 @@
                         <img class="img-fluid" src="logo.png" width="280" height="240" />
                     </figure>
                 </a>
-
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                        <li class="nav-item ms-3 ">
-                            <a  href="home.html">Home</a>
-			<li class="nav-item ms-3 ">
-                            <a class="active" href="shop.html">Shop</a>
                         <li class="nav-item ms-3">
-                            <a href="donate.html">Donate</a>
+                            <a class="nav-link" href="home.html">Home</a>
+                        </li>
+                        <li class="nav-item ms-3 dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                               aria-expanded="false">
+                                Shop
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="shop.html#crochet">Portraits</a></li>
+                                <li><a class="dropdown-item" href="shop.html#poem">Crochets</a></li>
+                                <li><a class="dropdown-item" href="shop.html#arts">Written Poems</a></li>
+                            </ul>
                         </li>
                         <li class="nav-item ms-3">
-                            <a href="about.html">About</a>
+                            <a class="nav-link" href="donate.html">Donate</a>
                         </li>
                         <li class="nav-item ms-3">
-                            <a href="contact.html">Contact</a>
+                            <a class="nav-link active" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item ms-3">
+                            <a class="nav-link" href="contact.html">Contact</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
     </header>
+<section id="hero">
+    <article class="hero-item py-5">
+        <div class="container">
+            <img class="hero-item__bg" src="img/Arts/dog.png" height=40px />
+        </div>
+    </article>
+</section>
 
-<div class="center_about">
-<h1> YUME - Where Anyone Can Draw</h1>
-<p> Our website's goal is to showcase our talents as artists through commissions while also raising funds for stray animals and animal organizations or charities without having to scroll through our social media and wait for the need to help.</p>
-<p>The site's name comes from the Japanese word "夢" (read as yuu-meh), which means dream.</p>
-<p>Dream up of anything you can imagine, take any art medium to prefer, draw to your heart's content.</p>
-<p>Together we can save these precious animals.</p>
-</div>
-<img src="yummer2.png">
-
-<div class="center_about2">
-<p> Our site's mascot is named Yummers.</p>
-<p> A magical purple koala that paints with their tail, they're an artistic prodigy in the making. </p>
-</div>
-
+        <footer class="footer bg-dark">
+        <div class="container">
+            <p class="py-3 mb-0 text-center text-white">Copyright 2023 by YUME. All rights reserved.</p>
+        </div>
+    </footer>
+    <!--JS starts here-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"
+        integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="js/main.js"></script>
+    <!--Js ends here-->
 </body>
-</html>
+</html> 
