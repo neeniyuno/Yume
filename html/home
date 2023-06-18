@@ -354,6 +354,53 @@
         </div>
     </section>
 
+<!--Contact Us Section-->
+                    <section id="contact" class="p-5">
+                        <form class="row g-3 needs-validation" novalidate>
+                            <h3 class="text-center">Contact Us</h3>
+                            <p class="text-center"><em>An art for a cause</em></p>
+
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <p></p>
+                                    <p><span class="glyphicon glyphicon-map-marker"></span>Metro Manila, Philippines</p>
+                                    <p><span class="glyphicon glyphicon-phone"></span>Phone: +00 1515151515</p>
+                                    <p><span class="glyphicon glyphicon-envelope"></span>Email: yume@mail.com</p>
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="row">
+                                        <div class="col-sm-6">
+                                            <input type="text" class="form-control is-valid" id="validationServer02" placeholder="Name" required>
+                                            <div class="invalid-feedback">
+                                                Please fill up your name.
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <div class="input-group has-validation">
+                                                <span class="input-group-text" id="inputGroupPrepend3">@</span>
+                                                <input type="text" class="form-control is-invalid" id="validationServerUsername" placeholder="Email" aria-describedby="inputGroupPrepend3 validationServerUsernameFeedback" required>
+                                                <div id="validationServerUsernameFeedback" class="invalid-feedback">
+                                                    Please enter your username.
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <br>
+                                        <textarea class="form-control is-invalid" id="validationTextarea" placeholder="write your message here" required rows="5" ></textarea>
+                                        <div class="invalid-feedback">
+                                            Please enter a message.
+                                        </div>
+                                        <br>
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <button class="btn btn-primary" type="submit">Send</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                            </div>
+                        </form>
+                    </section>
+                    <br>
+
     <footer class="footer bg-dark">
         <div class="container">
             <p class="py-3 mb-0 text-center text-white">Copyright 2023 by YUME. All rights reserved.</p>
