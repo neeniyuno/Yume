@@ -69,19 +69,76 @@
                             <a class="nav-link active" href="about.html">About</a>
                         </li>
                         <li class="nav-item ms-3">
-                            <a class="nav-link" href="contact.html">Contact</a>
+                            <a class="nav-link" href="home.html#contact">Contact</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
     </header>
-<section id="hero">
-    <article class="hero-item py-5">
-        <div class="container">
-            <img class="hero-item__bg" src="img/Arts/dog.png" height=40px />
+<!--Cover photo-->
+<section id="photo" class="p-5">
+    <div class="card bg-dark text-white">
+        <img src="https://mdbcdn.b-cdn.net/img/new/slides/017.webp" class="card-img" alt="yummers" />
+        <div class="card-img-overlay" style="background-color: rgba(0, 0, 0, 0.3)">
+            <div class="topright"
+                <p>Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.</p>
+            </div>
         </div>
-    </article>
+    </div>
+</section>
+
+<!--contact us-->
+    <section id="contactus" class="p-5 text-center">
+        <div class="container">
+                <h2 class="pb-2">
+                    Message us to be part of our team</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus nibh in velit facilisis
+                    maximus.
+                </p>
+                <h2 class="pb-2">
+                    <i class="fas fa-phone ms-2"></i>
+                        0912-123-1234
+                </h2>
+        </div>
+    </section>
+
+<!--Admins-->
+    <section id="our-products" class="p-5">
+        <div class="container">
+            <div class="row justify-content-between">
+            <div class="js-products-slider">
+                <div class="px-3">
+                    <div class="card">
+                        <img class="card-img-top" src="img/jen.png" alt="admin1">
+                        <div class="card-body">
+                            <h5 class="card-title">Neru</h5>
+                            <p class="card-text">short description about their business</p>
+                            <a href="#" class="btn btn-primary">Read more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="px-3">
+                    <div class="card">
+                        <img class="card-img-top" src="img/mai.png" alt="admin2">
+                        <div class="card-body">
+                            <h5 class="card-title">Maine</h5>
+                            <p class="card-text">short description about their business</p>
+                            <a href="#" class="btn btn-primary">Read more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="px-3">
+                    <div class="card">
+                        <img class="card-img-top" src="img/maria.png" alt="admin3">
+                        <div class="card-body">
+                            <h5 class="card-title">Malikhaing Haraya</h5>
+                            <p class="card-text">short description about their business</p>
+                            <a href="#" class="btn btn-primary">Read more</a>
+                        </div>
+                    </div>
+                </div>
 </section>
 
         <footer class="footer bg-dark">
@@ -89,7 +146,7 @@
             <p class="py-3 mb-0 text-center text-white">Copyright 2023 by YUME. All rights reserved.</p>
         </div>
     </footer>
-    <!--JS starts here-->
+<!--JS starts here-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
         crossorigin="anonymous"></script>
@@ -97,6 +154,6 @@
         integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src="js/main.js"></script>
-    <!--Js ends here-->
+<!--Js ends here-->
 </body>
 </html> 
