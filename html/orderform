@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<!-- Created By CodingLab - www.codinglabweb.com -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <title> Order Form</title>
+    <link rel="stylesheet" href="orderform.css">
+    <!-- Fontawesome CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script type="text/javascript" src="orderform.js">  </script> 
+   </head>
+   
+<body>
+  <div class="title">
+	<h1 style="font-size:4vw;"> Products/Merchandises Available</h1>
+  </div>
+  <div class="container">
+    <input type="radio" name="dot" id="one">
+    <input type="radio" name="dot" id="two">
+	<input type="radio" name="dot" id="three">
+	<input type="radio" name="dot" id="four">
+	<input type="radio" name="dot" id="five">
+	
+	
+    <div class="main-card">
+      <div class="cards">
+        <div class="card">
+         <div class="content">
+           <div class="img">
+            <img src="img/books/clover.png" alt="">
+           </div>
+           <div class="details">
+             <div class="name">Clover, Not a Four-Leaf</div>
+             <div class="job">price</div>
+           </div>
+           
+         </div>
+        </div>
+        <div class="card">
+         <div class="content">
+           <div class="img">
+            <img src="img/books/july.png" alt="">
+           </div>
+           <div class="details">
+             <div class="name">July 22nd</div>
+             <div class="job">price</div>
+           </div>
+          
+         </div>
+        </div>
+        <div class="card">
+         <div class="content">
+           <div class="img">
+            <img src="img/books/guiltyp.png" alt="">
+           </div>
+           <div class="details">
+             <div class="name">Guilty Pleasure</div>
+             <div class="job">price</div>
+           </div>
+           
+         </div>
+        </div>
+      </div>
+      <div class="cards">
+        <div class="card">
+         <div class="content">
+           <div class="img">
+             <img src="img/books/GraveL.png" alt="">
+           </div>
+           <div class="details">
+             <div class="name">Graveyard of (Dead) Letters</div>
+             <div class="job">price</div>
+           </div>
+         </div>
+        </div>
+        <div class="card">
+         <div class="content">
+           <div class="img">
+             <img src="img/books/personalA.png" alt="">
+           </div>
+           <div class="details">
+             <div class="name">Personal Angst</div>
+             <div class="job">price</div>
+           </div>
+         </div>
+        </div>
+        <div class="card">
+         <div class="content">
+           <div class="img">
+             <img src="img/Arts/catshirt.png" alt="">
+           </div>
+           <div class="details">
+             <div class="name">Graphic Tee Cat</div>
+             <div class="job">price</div>
+           </div>
+         </div>
+        </div>
+      </div>
+	  <div class="cards">
+        <div class="card">
+         <div class="content">
+           <div class="img">
+             <img src="img/Arts/dogshirt.png" alt="">
+           </div>
+           <div class="details">
+             <div class="name">Graphic Tee Dog</div>
+             <div class="job">price</div>
+           </div>
+         </div>
+        </div>
+        <div class="card">
+         <div class="content">
+           <div class="img">
+             <img src="img/Arts/bpin2.png" alt="">
+           </div>
+           <div class="details">
+             <div class="name">Button Pin</div>
+             <div class="job">price</div>
+           </div>
+         </div>
+        </div>
+        <div class="card">
+         <div class="content">
+           <div class="img">
+             <img src="img/Arts/portrait w bkg.png" alt="">
+           </div>
+           <div class="details">
+             <div class="name">Portrait</div>
+             <div class="job">price</div>
+           </div>
+         </div>
+        </div>
+      </div>
+	  
+	  <div class="cards">
+        <div class="card">
+         <div class="content">
+           <div class="img">
+             <img src="img/crochet/boqtulips.png" alt="">
+           </div>
+           <div class="details">
+             <div class="name">Bouquet/Single Tulip</div>
+             <div class="job">price</div>
+           </div>
+         </div>
+        </div>
+        <div class="card">
+         <div class="content">
+           <div class="img">
+             <img src="img/crochet/daisies.png" alt="">
+           </div>
+           <div class="details">
+             <div class="name">Bouquet/Single Daisy</div>
+             <div class="job">price</div>
+           </div>
+         </div>
+        </div>
+        <div class="card">
+         <div class="content">
+           <div class="img">
+             <img src="img/crochet/lilac.png" alt="">
+           </div>
+           <div class="details">
+             <div class="name">Lilac</div>
+             <div class="job">price</div>
+           </div>
+         </div>
+        </div>
+      </div>
+	  
+	  <div class="cards">
+        <div class="card">
+         <div class="content">
+           <div class="img">
+             <img src="img/crochet/pet.png" alt="">
+           </div>
+           <div class="details">
+             <div class="name">Pet (Customized)</div>
+             <div class="job">price</div>
+           </div>
+         </div>
+        </div>
+        <div class="card">
+         <div class="content">
+           <div class="img">
+             <img src="img/crochet/sunflower.png" alt="">
+           </div>
+           <div class="details">
+             <div class="name">Assorted with Sunflower</div>
+             <div class="job">price</div>
+           </div>
+         </div>
+        </div>
+        <div class="card">
+         <div class="content">
+           <div class="img">
+             <img src="img/crochet/tulsy.png" alt="">
+           </div>
+           <div class="details">
+             <div class="name">Assorted with Tulips</div>
+             <div class="job">price</div>
+           </div>
+         </div>
+        </div>
+      </div>
+	  
+	  <div class="cards">
+        <div class="card">
+         <div class="content">
+           <div class="img">
+             <img src="img/Arts/dogshirt.png" alt="">
+           </div>
+           <div class="details">
+             <div class="name">Graphic Tee Dog</div>
+             <div class="job">price</div>
+           </div>
+         </div>
+        </div>
+        <div class="card">
+         <div class="content">
+           <div class="img">
+             <img src="img/Arts/bpin2.png" alt="">
+           </div>
+           <div class="details">
+             <div class="name">Button Pin</div>
+             <div class="job">price</div>
+           </div>
+         </div>
+        </div>
+        <div class="card">
+         <div class="content">
+           <div class="img">
+             <img src="img/Arts/portrait w bkg.png" alt="">
+           </div>
+           <div class="details">
+             <div class="name">Portrait</div>
+             <div class="job">price</div>
+           </div>
+         </div>
+        </div>
+      </div>
+    </div>
+    <div class="button">
+      <label for="one" class=" active one"></label>
+      <label for="two" class="two"></label>
+	  <label for="three" class="three"></label>
+	  <label for="four" class="four"></label>
+	  <label for="five" class="five"></label>
+	  
+    </div>
+  </div>
+ 
+<br>
+<br>
+<section class="order-form m-4">
+  <div class="container pt-4">
+      <div class="row">
+          <div class="col-12 px-4">
+			 
+              <h1>Order Here</h1>
+              <span>Fill in the blanks.</span>
+              <hr class="mt-4" />
+
+          </div>
+
+          <div class="col-12">
+              <div class="row mx-4">
+                  <div class="col-12">
+                      <label class="order-form-label">Name</label>
+                  </div>
+                  <div class="col-sm-6">
+                      <div class="form-outline">
+                          <input type="text" id="form1" class="form-control order-form-input" />
+                          <label class="form-label" for="form1">First</label>
+                      </div>
+                  </div>
+                  <div class="col-sm-6 mt-2 mt-sm-0">
+                      <div class="form-outline">
+                          <input type="text" id="form2" class="form-control order-form-input" />
+                          <label class="form-label" for="form2">Last</label>
+                      </div>
+                  </div>
+              </div>
+
+              <div class="row mt-2 mx-4">
+                  <div class="col-12">
+                      <label class="order-form-label">Adress</label>
+                  </div>
+                  <div class="col-12">
+                      <div class="form-outline">
+                          <input type="text" id="form5" class="form-control order-form-input" />
+                          <label class="form-label" for="form5">Street, City</label>
+                      </div>
+                  </div>
+              </div>
+			  
+			  <div class="row mt-2 mx-4">
+                  <div class="col-12">
+                      <label class="order-form-label">Email Address</label>
+                  </div>
+                  <div class="col-12">
+                      <div class="form-outline">
+                          <input type="text" id="form5" class="form-control order-form-input" />
+                          <label class="form-label" for="form5">example@email.com</label>
+                      </div>
+                  </div>
+              </div>
+
+              
+			  <div class="row mt-4 mx-4">
+				<div class="col-6">
+					<label class="order-form-label">Product Item</label>
+				</div>
+				<div class="col-3">
+					<label class="order-form-label">Quantity</label>
+				</div>
+				<div class="col-2">
+				  <label class="order-form-label">Price</label>
+				</div>
+				
+				<div class="col-12">
+                      <label class="form-label">Item 1:</label>
+					  <select id="item1">
+						<option value="1"></option> 
+						<option value="Clover, Not a Four-Leaf">Clover, Not a Four-Leaf</option> 
+						<option value="July 22nd">July 22nd</option> 
+						<option value="Guilty Pleasure">Guilty Pleasure</option> 
+						<option value="Graveyard of (Dead) Letters">Graveyard of (Dead) Letters</option> 
+						<option value="Personal Angst">Personal Angst</option> 
+						<option value="Graphic Tee Cat">Graphic Tee Cat</option> 
+						<option value="Graphic Tee Dog">Graphic Tee Dog</option> 
+						<option value="Button Pin">Button Pin</option> 
+						<option value="Portrait">Portrait</option> 
+						<option value="Bouquet/Single Tulip">Bouquet/Single Tulip</option> 
+						<option value="Bouquet/Single Daisy">Bouquet/Single Daisy</option> 
+						<option value="Lilac">Lilac</option> 
+						<option value="Pet (Customized)">Pet (Customized)</option> 
+						<option value="Assorted with Sunflower">Assorted with Sunflower</option> 
+						<option value="Assorted with Tulips">Assorted with Tulips</option> 
+						</select>
+						</td> 
+						<td><input type="number" value="0" id="q1"></td>
+						<td><input type="text" id="p1"></td>
+                </div>
+				
+				<div class="col-12">
+                      <label class="form-label">Item 2:</label>
+					  <select id="item2">
+						<option value="1"></option> 
+						<option value="Clover, Not a Four-Leaf">Clover, Not a Four-Leaf</option> 
+						<option value="July 22nd">July 22nd</option> 
+						<option value="Guilty Pleasure">Guilty Pleasure</option> 
+						<option value="Graveyard of (Dead) Letters">Graveyard of (Dead) Letters</option> 
+						<option value="Personal Angst">Personal Angst</option> 
+						<option value="Graphic Tee Cat">Graphic Tee Cat</option> 
+						<option value="Graphic Tee Dog">Graphic Tee Dog</option> 
+						<option value="Button Pin">Button Pin</option> 
+						<option value="Portrait">Portrait</option> 
+						<option value="Bouquet/Single Tulip">Bouquet/Single Tulip</option> 
+						<option value="Bouquet/Single Daisy">Bouquet/Single Daisy</option> 
+						<option value="Lilac">Lilac</option> 
+						<option value="Pet (Customized)">Pet (Customized)</option> 
+						<option value="Assorted with Sunflower">Assorted with Sunflower</option> 
+						<option value="Assorted with Tulips">Assorted with Tulips</option> 
+						</select>
+						</td> 
+						<td><input type="number" value="0" id="q1"></td>
+						<td><input type="text" id="p1"></td>
+                </div>
+				
+				<div class="col-12">
+                      <label class="form-label">Item 3:</label>
+					  <select id="item3">
+						<option value="1"></option> 
+						<option value="Clover, Not a Four-Leaf">Clover, Not a Four-Leaf</option> 
+						<option value="July 22nd">July 22nd</option> 
+						<option value="Guilty Pleasure">Guilty Pleasure</option> 
+						<option value="Graveyard of (Dead) Letters">Graveyard of (Dead) Letters</option> 
+						<option value="Personal Angst">Personal Angst</option> 
+						<option value="Graphic Tee Cat">Graphic Tee Cat</option> 
+						<option value="Graphic Tee Dog">Graphic Tee Dog</option> 
+						<option value="Button Pin">Button Pin</option> 
+						<option value="Portrait">Portrait</option> 
+						<option value="Bouquet/Single Tulip">Bouquet/Single Tulip</option> 
+						<option value="Bouquet/Single Daisy">Bouquet/Single Daisy</option> 
+						<option value="Lilac">Lilac</option> 
+						<option value="Pet (Customized)">Pet (Customized)</option> 
+						<option value="Assorted with Sunflower">Assorted with Sunflower</option> 
+						<option value="Assorted with Tulips">Assorted with Tulips</option> 
+						</select>
+						</td> 
+						<td><input type="number" value="0" id="q1"></td>
+						<td><input type="text" id="p1"></td>
+                </div>
+				
+				<div class="col-12">
+                      <label class="form-label">Item 4:</label>
+					  <select id="item4">
+						<option value="1"></option> 
+						<option value="Clover, Not a Four-Leaf">Clover, Not a Four-Leaf</option> 
+						<option value="July 22nd">July 22nd</option> 
+						<option value="Guilty Pleasure">Guilty Pleasure</option> 
+						<option value="Graveyard of (Dead) Letters">Graveyard of (Dead) Letters</option> 
+						<option value="Personal Angst">Personal Angst</option> 
+						<option value="Graphic Tee Cat">Graphic Tee Cat</option> 
+						<option value="Graphic Tee Dog">Graphic Tee Dog</option> 
+						<option value="Button Pin">Button Pin</option> 
+						<option value="Portrait">Portrait</option> 
+						<option value="Bouquet/Single Tulip">Bouquet/Single Tulip</option> 
+						<option value="Bouquet/Single Daisy">Bouquet/Single Daisy</option> 
+						<option value="Lilac">Lilac</option> 
+						<option value="Pet (Customized)">Pet (Customized)</option> 
+						<option value="Assorted with Sunflower">Assorted with Sunflower</option> 
+						<option value="Assorted with Tulips">Assorted with Tulips</option> 
+						</select>
+						</td> 
+						<td><input type="number" value="0" id="q1"></td>
+						<td><input type="text" id="p1"></td>
+                </div>
+				
+				<div class="col-12">
+                      <label class="form-label">Item 5:</label>
+					  <select id="item5">
+						<option value="1"></option> 
+						<option value="Clover, Not a Four-Leaf">Clover, Not a Four-Leaf</option> 
+						<option value="July 22nd">July 22nd</option> 
+						<option value="Guilty Pleasure">Guilty Pleasure</option> 
+						<option value="Graveyard of (Dead) Letters">Graveyard of (Dead) Letters</option> 
+						<option value="Personal Angst">Personal Angst</option> 
+						<option value="Graphic Tee Cat">Graphic Tee Cat</option> 
+						<option value="Graphic Tee Dog">Graphic Tee Dog</option> 
+						<option value="Button Pin">Button Pin</option> 
+						<option value="Portrait">Portrait</option> 
+						<option value="Bouquet/Single Tulip">Bouquet/Single Tulip</option> 
+						<option value="Bouquet/Single Daisy">Bouquet/Single Daisy</option> 
+						<option value="Lilac">Lilac</option> 
+						<option value="Pet (Customized)">Pet (Customized)</option> 
+						<option value="Assorted with Sunflower">Assorted with Sunflower</option> 
+						<option value="Assorted with Tulips">Assorted with Tulips</option> 
+						</select>
+						</td> 
+						<td><input type="number" value="0" id="q1"></td>
+						<td><input type="text" id="p1"></td>
+                </div>
+			  
+			  </div>
+			  
+			  <div class="row mt-3 mx-4">
+                  <div class="col-12">
+                      <div class="form-check">
+                          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
+                          <label class="form-check-label" for="flexCheckDefault">I agree to the terms and condition</label>
+                      </div>
+                  </div>
+              </div>
+			  
+              <div class="row mt-3">
+                  <div class="col-12">
+                      <button type="button" id="btnSubmit" class="btn btn-primary d-block mx-auto btn-submit" onclick="Ofunction()">Place Order</button>
+                  </div>
+              </div>
+			  
+			  <div class="row mt-3">
+                  <div class="col-12 text-center">
+					  <a class="btn btn-primary" id=" btHome" href="home.html" role="button">Back to Home</a>
+                  </div>
+              </div>
+			  
+			  
+          </div>
+      </div>
+  </div>
+</section>
+<script>
+	function Ofunction() {
+		alert("Thank you for ordering!\nPlease check your email as we process your order.")
+	}
+</script>
+</body>
+</html>
