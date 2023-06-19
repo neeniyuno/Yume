@@ -254,6 +254,9 @@
  
 <br>
 <br>
+
+<!--ORDER SECTION-->
+
 <section class="order-form m-4">
   <div class="container pt-4">
       <div class="row">
@@ -447,6 +450,18 @@
 			  
 			  </div>
 			  
+			  <div class="row mt-2 mx-4">
+                  <div class="col-12">
+                      <label class="order-form-label">Additional Details (Optional): </label>
+                  </div>
+                  <div class="col-12">
+                      <div class="form-outline w-100">
+                          <textarea id="form5" class="form-control order-form-input" rows="4"> </textarea>
+                          
+                      </div>
+                  </div>
+              </div>
+			  
 			  <div class="row mt-3 mx-4">
                   <div class="col-12">
                       <div class="form-check">
@@ -455,16 +470,33 @@
                       </div>
                   </div>
               </div>
-			  
+			  <!--
               <div class="row mt-3">
                   <div class="col-12">
                       <button type="button" id="btnSubmit" class="btn btn-primary d-block mx-auto btn-submit" onclick="Ofunction()">Place Order</button>
                   </div>
-              </div>
+              </div> -->
+			  
+			  <div class="center">
+				  <input type="checkbox" id="click">
+				  <label for= "click" class="click-me">Place Order</label>
+				  <div class="content1">
+				    <div class="header">
+					  <h2> Order Done!!<h2>
+					  <label for="click" class="fas fa-times"></label>
+					</div>
+					<label for="click" class="fas fa-check"></label>
+					<p> Thank you for ordering! Kindly wait for our email as we process your order.</p>
+					<div class="line"></div>
+					<label for="click" class="close-btn">Close</label>
+				  </div>
+			  </div>
+			  
+			  
 			  
 			  <div class="row mt-3">
                   <div class="col-12 text-center">
-					  <a class="btn btn-primary" id=" btHome" href="home.html" role="button">Back to Home</a>
+					  <a class="btn btn-primary" id="btHome" href="home.html" role="button" style="background-color: #FF92A5;">Back to Home</a>
                   </div>
               </div>
 			  
@@ -473,10 +505,6 @@
       </div>
   </div>
 </section>
-<script>
-	function Ofunction() {
-		alert("Thank you for ordering!\nPlease check your email as we process your order.")
-	}
-</script>
+
 </body>
 </html>
