@@ -9,6 +9,321 @@
     integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
 <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
 <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet"/>
+<link rel="stylesheet" href="css/main.css" type="text/css" />
+<title>YUME - About Us</title>
+<link rel="icon" href="icon.png" />
+</head>
+
+<body>
+<header class="header fixed-top">
+        <div class="header-top">
+            <div class="container d-flex">
+                <div class="py-1 d-flex align-items-center ms-auto">
+                    <h6 class="mb-0 text-white">Follow Us:</h6>
+                    <nav class="d-flex align-items-center">
+                        <a class="ms-2 text-white" href="https://facebook.com" target="_blank">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a class="ms-2 text-white" href="https://instagram.com" target="_blank">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a class="ms-2 text-white" href="https://twitter.com" target="_blank">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <nav class="header-navbar navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <figure class="header-logo">
+                        <img class="img-fluid" src="logo.png" width="280" height="240" />
+                    </figure>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item ms-3">
+                            <a class="nav-link" href="home.html">Home</a>
+                        </li>
+                        <li class="nav-item ms-3 dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                               aria-expanded="false">
+                                Shop
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="shop.html#portraits">Portraits</a></li>
+                                <li><a class="dropdown-item" href="shop.html#crochets">Crochets</a></li>
+                                <li><a class="dropdown-item" href="shop.html#poems">Written Poems</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item ms-3">
+                            <a class="nav-link" href="donate.html">Donate</a>
+                        </li>
+                        <li class="nav-item ms-3">
+                            <a class="nav-link active" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item ms-3">
+                            <a class="nav-link" href="home.html#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+<!--Cover photo-->
+<section id="photo" class="p-5">
+    <div class="card bg-dark text-white">
+        <img src="https://mdbcdn.b-cdn.net/img/new/slides/017.webp" class="card-img" alt="yummers" />
+        <div class="card-img-overlay" style="background-color: rgba(0, 0, 0, 0.3)">
+            <div class="topright"
+                <p>Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--contact us-->
+    <section id="contactus" class="p-5 text-center">
+        <div class="container">
+                <h2 class="pb-2">
+                    Message us to be part of our team</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus nibh in velit facilisis
+                    maximus.
+                </p>
+                <h2 class="pb-2">
+                    <i class="fas fa-phone ms-2"></i>
+                        0912-123-1234
+                </h2>
+        </div>
+    </section>
+
+<!--Admins-->
+    <section id="our-products" class="p-5">
+        <div class="container">
+            <div class="row justify-content-between">
+            <div class="js-products-slider">
+                <div class="px-3">
+                    <div class="card">
+                        <img class="card-img-top" src="img/jen.png" alt="admin1">
+                        <div class="card-body">
+                            <h5 class="card-title">Neru</h5>
+                            <p class="card-text">Written poetry about life, relationships and misery.</p>
+                            <a href="about.html#neru" class="btn btn-primary">Read more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="px-3">
+                    <div class="card">
+                        <img class="card-img-top" src="img/mai.png" alt="admin2">
+                        <div class="card-body">
+                            <h5 class="card-title">Maine</h5>
+                            <p class="card-text">short description about their business</p>
+                            <a href="about.html#maine" class="btn btn-primary">Read more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="px-3">
+                    <div class="card">
+                        <img class="card-img-top" src="img/maria.png" alt="admin3">
+                        <div class="card-body">
+                            <h5 class="card-title">Malikhaing Haraya</h5>
+                            <p class="card-text">short description about their business</p>
+                            <a href="about.html#angela" class="btn btn-primary">Read more</a>
+                        </div>
+                    </div>
+                </div>
+	</section>
+<!-- info about admins-->
+<!-- neru -->
+	<section id="neru" class="p-5">
+		<div class="container1">
+			<div class="info">
+				<h1 class="name"> About Neru </h1>
+			</div>
+			<div class="row">
+				<div class="col-md-3 text-center">
+					<div class="icon">
+						<i class="fa fa-user"> </i>
+					</div>
+					<h3> Personal Information </h3>
+					<p><b> Admin Name:  </b>Neru <br>
+					<b>Email Address: </b> jeninavellemasangcay@gmail.com <br>
+					<b>Instagram:</b> @jinjineru <br>
+					<b>Facebook: </b> Jenina Velle <br>
+					<b>Twitter:</b> --- <br>
+					<b>Contact no.:</b> 0915-542-1117
+					</p>
+				</div>
+				
+				<div class="col-md-3 text-center">
+					<div class="icon">
+						<i class="fas fa-snowboarding"></i>
+					</div>
+					<h3> Hobbies</h3>
+					<p><b> Reading and writing, playing online games, listening to music, singing and playing guitar, and drawing (a bit).</b> 
+					</p>
+				</div>
+				
+				<div class="col-md-3 text-center">
+					<div class="icon">
+						<i class="fas fa-brain"></i>
+					</div>
+					<h3> Skills</h3>
+					<p><b> Average critical and logical thinking skills, creative, can multi-task, observant, and a good listener. </b> 
+					</p>
+				</div>
+				
+				<div class="col-md-3 text-center">
+					<div class="icon">
+						<i class="fas fa-sticky-note"></i>
+					</div>
+					<h3>Motto in Life </h3>
+					<p><b> "You always have a choice no matter what circumstances you are in."</b> 
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+<!-- maine -->
+	
+	<section id="maine" class="p-5">
+		<div class="container1">
+			<div class="info">
+				<h1 class="name"> About Maine </h1>
+			</div>
+			<div class="row">
+				<div class="col-md-3 text-center">
+					<div class="icon">
+						<i class="fa fa-user"> </i>
+					</div>
+					<h3> Personal Information </h3>
+					<p><b> Admin Name:  </b>Aisaka Mai <br>
+					<b>Email Address: </b> mainehartily.03@gmail.com <br>
+					<b>Instagram:</b> @maimeowrft <br>
+					<b>Facebook: </b> Maine Hartily <br>
+					<b>Twitter:</b> @MHartily <br>
+					<b>Contact no.:</b> 0929-784-2219
+					</p>
+				</div>
+				
+				<div class="col-md-3 text-center">
+					<div class="icon">
+						<i class="fas fa-snowboarding"></i>
+					</div>
+					<h3> Hobbies</h3>
+					<p><b> Sketching, drawing, watching tv series/movies, and reading books.</b> 
+					</p>
+				</div>
+				
+				<div class="col-md-3 text-center">
+					<div class="icon">
+						<i class="fas fa-brain"></i>
+					</div>
+					<h3> Skills</h3>
+					<p><b> Graphic Design, Traditional and Digital Arts, Badminton, Judo, Taekwondo, and Multi-tasking. </b> 
+					</p>
+				</div>
+				
+				<div class="col-md-3 text-center">
+					<div class="icon">
+						<i class="fas fa-sticky-note"></i>
+					</div>
+					<h3>Motto in Life </h3>
+					<p><b>"Everything you lose is a step you take, so take the moment and taste it, you have got no reason to be afraid."</b> 
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+<!--angela-->
+
+	<section id="angela" class="p-5">
+		<div class="container1">
+			<div class="info">
+				<h1 class="name"> About Malikhaing Haraya </h1>
+			</div>
+			<div class="row">
+				<div class="col-md-3 text-center">
+					<div class="icon">
+						<i class="fa fa-user"> </i>
+					</div>
+					<h3> Personal Information </h3>
+					<p><b> Admin Name:  </b>Angela<br>
+					<b>Email Address: </b> anglmrvlla20@gmail.com <br>
+					<b>Instagram:</b>  @mrngl20 <br>
+					<b>Facebook: </b> Maria Angela  <br>
+					<b>Twitter:</b> --- <br>
+					<b>Contact no.:</b> 0953-006-3369
+					</p>
+				</div>
+				
+				<div class="col-md-3 text-center">
+					<div class="icon">
+						<i class="fas fa-snowboarding"></i>
+					</div>
+					<h3> Hobbies</h3>
+					<p><b>  Painting, playing online games, and drawing.</b> 
+					</p>
+				</div>
+				
+				<div class="col-md-3 text-center">
+					<div class="icon">
+						<i class="fas fa-brain"></i>
+					</div>
+					<h3> Skills</h3>
+					<p><b> Creativity, adaptability,and attention to details. </b> 
+					</p>
+				</div>
+				
+				<div class="col-md-3 text-center">
+					<div class="icon">
+						<i class="fas fa-sticky-note"></i>
+					</div>
+					<h3>Motto in Life </h3>
+					<p><b>"Focus on excitement rather than fear."</b> 
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+
+        <footer class="footer bg-dark">
+        <div class="container">
+            <p class="py-3 mb-0 text-center text-white">Copyright 2023 by YUME. All rights reserved.</p>
+        </div>
+    </footer>
+<!--JS starts here-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"
+        integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="js/main.js"></script>
+<!--Js ends here-->
+</body>
+</html> <!DOCTYPE html>
+<html lang="en" <head>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
 <link rel="stylesheet" href="css/main.css" type="text/css" />
 <title>YUME - About Us</title>
 <link rel="icon" href="icon.png" />
